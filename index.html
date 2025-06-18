@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Tasl</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="images/favicon.ico" sizes="any" />
+    <link rel="icon" href="images/logo_иконка.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  </head>
+
+  <body class="page">
+    <header class="video-header">
+      <!-- Фоновое видео -->
+      <video class="video-bg" autoplay muted loop playsinline>
+        <source src="./video/TASL.mp4" type="video/mp4" />
+        The best start up
+      </video>
+
+      <div class="overlay"></div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#product">О продукте</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#footer">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="header-content">
+        <img src="./images/logo1.png" alt="Логотип компании" class="logo" />
+        <h1 class="content">The best start up</h1>
+      </div>
+
+      <!-- Секция о продукте -->
+      <section id="product" class="section product">
+        <h2>О продукте</h2>
+        <p>
+          Отличия организации краудсорсинговой курьерской службы (ККС) от просто
+          курьерской службы весьма зыбкие. В любом случае нужно нанимать
+          курьеров, искать клиентов, организовывать доставку, контроль, оплату,
+          гарантии заказчикам. Разница в том, что курьерская служба обычно имеет
+          постоянный штат курьеров, свою сеть офисов, пункты хранения грузов,
+          собственный транспорт (скутеры, автомобили и т.д.) и может оказывать
+          более широкий спектр услуги, включая автоперевозки. Её работа из-за
+          постоянного штата курьеров более предсказуема. Теоретически курьеры
+          там работают долго и они профи. Краудсорсинговая курьерская служба
+          ориентируется на массовое привлечение неквалифицированных курьеров,
+          для этого процедура привлечения курьера максимально упрощена. Доставка
+          в основном пешая, грузы, соответственно, в основном лёгкие, офисов и
+          пунктов хранения часто вообще нет, ответственность перед заказчиком
+          часто понижена.
+        </p>
+      </section>
+      <section class="section advantages">
+        <h2>Почему выбирают нас</h2>
+        <ul class="advantages__list">
+          <li>⚡ Быстрая доставка по городу</li>
+          <li>📱 Удобное мобильное приложение</li>
+          <li>🤝 Простая система для новых курьеров</li>
+          <li>📦 Безопасность и контроль доставки</li>
+        </ul>
+      </section>
+      <section class="section how-it-works">
+        <h2>Как это работает</h2>
+        <ol class="steps">
+          <li>Оформите заказ в приложении</li>
+          <li>Курьер получает задание</li>
+          <li>Трекинг доставки в реальном времени</li>
+          <li>Подтверждение доставки и отзыв</li>
+        </ol>
+      </section>
+      <section id="reviews" class="section reviews">
+        <h2>Отзывы клиентов</h2>
+        <div class="review-list">
+          <article class="review">
+            <img
+              src="./images/person.jpg"
+              alt="Фото Алексея"
+              class="review__avatar"
+            />
+            <div class="review__content">
+              <p>
+                🚀 Очень удобно! Нашёл курьера за 5 минут и получил доставку в
+                течение часа.
+              </p>
+              <cite>— Алексей, клиент</cite>
+            </div>
+          </article>
+          <article class="review">
+            <img
+              src="./images/person.jpg"
+              alt="Фото Марины"
+              class="review__avatar"
+            />
+            <div class="review__content">
+              <p>
+                👍 Как курьеру, мне понравилась простота интерфейса и быстрое
+                зачисление денег.
+              </p>
+              <cite>— Марина, курьер</cite>
+            </div>
+          </article>
+          <article class="review">
+            <img
+              src="./images/person.jpg"
+              alt="Фото Дмитрия"
+              class="review__avatar"
+            />
+            <div class="review__content">
+              <p>
+                👏 Надёжная служба. Уже несколько раз пользовался — всё работает
+                без нареканий.
+              </p>
+              <cite>— Дмитрий, постоянный клиент</cite>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Секция о команде -->
+      <section id="team" class="section team">
+        <h2>Наша команда</h2>
+        <div class="team-members">
+          <div class="member">
+            <img src="./images/Pict_Nikita.jpg" alt="Имя участника" />
+            <h3>Никита</h3>
+            <p>BIG BOSS</p>
+          </div>
+          <div class="member">
+            <img src="./images/pict_Nik.jpg" alt="Имя участника" />
+            <h3>Колясик</h3>
+            <p>должность</p>
+          </div>
+          <div class="member">
+            <img src="./images/pict_IV.jpg" alt="Имя участника" />
+            <h3>Иван</h3>
+            <p>должность</p>
+          </div>
+          <div class="member">
+            <img src="./images/Pict_AL.jpg" alt="Имя участника" />
+            <h3>Алена</h3>
+            <p>должность</p>
+          </div>
+          <div class="member">
+            <img src="./images/Pict_KAt.jpg" alt="Имя участника" />
+            <h3>Катя</h3>
+            <p>UI/UX дизайнер</p>
+          </div>
+          <!-- Добавьте еще участников -->
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div class="footer__content">
+        <div class="footer__info">
+          <p><strong>Адрес:</strong> г. Томск, ул. Пушкина, д. 15/1</p>
+          <p>
+            <strong>Телефон:</strong>
+            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:tasl@yandex.ru">tasl@yandex.ru</a>
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <p>Мы в соцсетях:</p>
+          <ul class="social-links">
+            <li><a href="#" aria-label="ВКонтакте">VK</a></li>
+            <li><a href="#" aria-label="Telegram">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copyright">© 2025 Tasl. Все права защищены.</p>
+    </footer>
+  </body>
+</html>
