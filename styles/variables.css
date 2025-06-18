@@ -1,4 +1,15 @@
 
 :root {
-
+--text_color: #003264 ;
+--accent_color:#3385ff;
+--box_color:#1a76ff;
+--addit_color:#82ffe0;
+--main_font:700;
+--background-color:radial-gradient(
+    circle at 20% 30%,
+    #01407f 0%,
+    #66c2ff 40%,
+    #3385ff 70%,
+    #ffffff 120%
+  );
 }
